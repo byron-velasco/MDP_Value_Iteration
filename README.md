@@ -91,7 +91,7 @@ La **ecuación de Bellman** garantiza que iterando este proceso, V(s) converge a
 ## Estructura del repositorio
 
 ```
-mdp-value-iteration-maze/
+mdp-value-iteration/
 │
 ├── MDP_Value_Iteration.ipynb   ← Notebook principal (Colab-ready)
 ├── README.md
@@ -107,8 +107,8 @@ mdp-value-iteration-maze/
 # Abrir MDP_Value_Iteration.ipynb en Colab y ejecutar todas las celdas
 
 # Local
-git clone https://github.com/byron-velasco/mdp-value-iteration-maze.git
-cd mdp-value-iteration-maze
+git clone https://github.com/byron-velasco/mdp-value-iteration.git
+cd mdp-value-iteration
 pip install -r requirements.txt
 jupyter notebook MDP_Value_Iteration.ipynb
 ```
